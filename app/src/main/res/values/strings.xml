@@ -1,0 +1,9 @@
+<resources>
+    <string name="appName">Pluto</string>
+    <string name="app_name">Pluto</string>
+    <string name="iconName">Pluto</string>
+    
+    <string name="private_version">f23fcbf6c03376362f3e9547e3aebdcb</string>
+    
+
+</resources>

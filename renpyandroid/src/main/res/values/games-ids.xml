@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">688295317745</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.teamcodong.pluto</string>
+    <!-- achievement 플레이 버튼을 찾았습니다! -->
+    <string name="achievement_playbutton" translatable="false">CgkI8aHkjIQUEAIQAQ</string>
+    <!-- achievement Chapter 1.  빛과 그림자. -->
+    <string name="achievement_chapter_1" translatable="false">CgkI8aHkjIQUEAIQAg</string>
+    <!-- achievement Chapter 2. 레지스탕스. -->
+    <string name="achievement_chapter_2" translatable="false">CgkI8aHkjIQUEAIQAw</string>
+    <!-- achievement Chapter 3. '답지 않게'. -->
+    <string name="achievement_chapter_3" translatable="false">CgkI8aHkjIQUEAIQBQ</string>
+    <!-- achievement 엔딩크레딧 클리어! -->
+    <string name="achievement_ending_credit" translatable="false">CgkI8aHkjIQUEAIQCw</string>
+    <!-- achievement 꺄아아아아악!!!!! -->
+    <string name="achievement_bad_1" translatable="false">CgkI8aHkjIQUEAIQBw</string>
+    <!-- achievement 막지.. 못했다... -->
+    <string name="achievement_bad_2" translatable="false">CgkI8aHkjIQUEAIQBg</string>
+    <!-- achievement 잠깐만. 교무실은 2층인데?..!! -->
+    <string name="achievement_bad_3" translatable="false">CgkI8aHkjIQUEAIQCA</string>
+    <!-- achievement 베드엔딩 클리어! -->
+    <string name="achievement_bad_clear" translatable="false">CgkI8aHkjIQUEAIQBA</string>
+    <!-- leaderboard 최다 엔딩 클리어 횟수 -->
+    <string name="leaderboard" translatable="false">CgkI8aHkjIQUEAIQCg</string>
+</resources>

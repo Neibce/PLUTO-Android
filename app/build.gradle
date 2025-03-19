@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+def localPropertiesFile = rootProject.file("local.properties")
+def localProperties = new Properties()
+localProperties.load(new FileInputStream(localPropertiesFile))
+
+android {
+    compileSdkVersion 33
+
+    defaultConfig {
+        applicationId "com.teamcodong.pluto"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 100000058
+        versionName "0.9.22"
+        multiDexEnabled true
+    }
+
+    lintOptions {
+        disable "Instantiatable"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file(localProperties["key.store"])
+            storePassword localProperties["key.store.password"]
+            keyAlias localProperties['key.alias']
+            keyPassword localProperties["key.alias.password"]
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+        }
+    }
+
+    androidResources {
+        noCompress = [ 'ogv', 'avi', 'mpg', 'webm', 'mkv', 'mp4', 'mp3', 'mp2', 'ogg', 'opus', 'flac', 'png', 'jpg', 'jpeg', 'webp', 'rpyc', 'rpymc', 'rpyb', ]
+    }
+    namespace 'com.teamcodong.pluto'
+}
+
+dependencies {
+    implementation project(':renpyandroid')
+
+    implementation 'com.google.firebase:firebase-analytics:22.0.0'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.google.firebase:firebase-messaging:24.0.0'
+    implementation 'com.google.firebase:firebase-inappmessaging-display:21.0.0'
+    implementation 'com.google.firebase:firebase-crashlytics:19.0.0'
+}
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Ren\'Py Android</string>
+    <string name="signin_other_error">Google Play Games 서비스 연동에 실패했습니다.</string>
+</resources>
