@@ -1,0 +1,38 @@
+# PLUTO - Android
+
+[한국어](./README.md)
+
+Android port of the visual novel game [PLUTO](https://github.com/Neibce/PLUTO)
+
+2018 / High school club team project (TeamCodingDongcheon)
+
+## Tech Stack
+
+- Android (Java)
+- Ren'Py
+- Google Play Game Services (Achievements, Leaderboard)
+- Firebase (FCM, Crashlytics)
+
+## Screenshots
+
+| | |
+|:---:|:---:|
+| ![1](https://github.com/user-attachments/assets/5237ad42-be8e-425a-8378-d3aa22759fd0) | ![2](https://github.com/user-attachments/assets/3b1facf3-b587-4a3e-b221-a1ff405967b8) |
+| ![3](https://github.com/user-attachments/assets/9c36a105-c503-4526-9945-eaed9b215d5f) | ![4](https://github.com/user-attachments/assets/d54e9c66-c9c1-41e7-99f6-035ba2e6a02c) |
+
+| Achievements | Leaderboard |
+|:---:|:---:|
+| ![Achievements](https://github.com/user-attachments/assets/d2b00662-037a-4820-a33f-d40d031d7fe2) | ![Leaderboard](https://github.com/user-attachments/assets/b4550c84-5073-4c26-8635-7ec07987a5e7) |
+
+## Team
+
+| Role | Name |
+|:---:|---|
+| Lead | **Park Hyungrak** |
+| Art | **Kim Hyungjun** |
+| Music/Audio | **An Chowon**, Lee Ganghae |
+| Programming | **Yang Junyoung**, **Jo Sanghyung**, Go Minsu, Park Jaehong, Yoo Younggwan, Choi Youngin |
+| Android Porting | **Yang Junyoung** |
+| Story | **Lee Jaeseo**, Lee Mindo, Song Giwon |
+| EN Translation | **Kang Mokwon**, Moon Sunwoong |
+| JP Translation | **Song Hyunsung** |
